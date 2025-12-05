@@ -1,0 +1,158 @@
+body {
+    font-family: 'Inter', serif;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-brand {
+    height: 130px;
+    width: auto;
+    margin-left: 0;
+    padding: 0;
+}
+
+#menu-principal .nav .nav-link {
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#menu-principal .nav .nav-link.active {
+    background-color: #C29049;
+    color: #000000;
+}
+
+.section-title,
+#carroceria h3,
+#acessorios h2 {
+    color: #533d1f;
+    font-family: 'Inter', serif;
+    font-size: 2.5rem;
+}
+
+#brincos h5 {
+    color: #C29049;
+    font-family: 'Inter', serif;
+}
+
+.btn-verde-custom {
+    background-color: #C29049;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-verde-custom:hover,
+.btn-verde-custom:focus {
+    background-color: #C29049;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #C29049;
+    border-color: #C29049;
+}
+
+.btn-primary:hover {
+    background-color: #4a3518;
+    border-color: #4a3518;
+}
+
+.color-green {
+    color: #C29049;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 90vh;
+    width: 100%;
+}
+
+#carousel {
+    max-height: 100;
+    overflow: hidden;
+}
+
+
+#carroceria,
+#sobre-nos {
+    background-color: #dca352c4;
+}
+
+.nav-acessorios .nav-link {
+    color: #C29049;
+    background-color: transparent;
+    border: none;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.nav-acessorios .nav-link:hover {
+    color: #C29049;
+}
+
+.nav-acessorios .nav-link.active {
+    background-color: #C29049;
+    color: #fff;
+}
+
+.text-green {
+    color: #C29049;
+    transition: 0.3s ease;
+}
+
+.text-green:hover {
+    color: #7b925c;
+    transform: scale(1.1);
+}
+
+#carroceria img,
+#brincos img,
+#colares img,
+#pulseiras img,
+#aneis img,
+#relogios img,
+#oculos img,
+#acessorios-masculinos img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+
+    #carroceria img,
+    #brincos img,
+    #colares img,
+    #pulseiras img,
+    #aneis img,
+    #relogios img,
+    #oculos img,
+    #acessorios-masculinos img {
+        width: 70%;
+        max-width: none;
+    }
+
+    #carroceria p,
+    #brincos p,
+    #colares p,
+    #pulseiras p,
+    #aneis p,
+    #relogios p,
+    #oculos p,
+    #acessorios-masculinos p {
+        font-size: 0.9rem;
+        text-align: center;
+        margin: 0 auto;
+        width: 90%;
+        padding: 0.5rem;
+    }
+
+    .carousel-item img {
+        height: 280px;
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
